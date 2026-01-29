@@ -15,6 +15,14 @@
 #define SCROLL 5
 #define WIRELESS 6
 
+// writenn bytenajima
+// zを押した時にshiftがすぐ入って大文字になってしまうのを防ぐため
+&mt {
+    flavor = "balanced";
+    quick-tap-ms = <0>;
+};
+// 
+
 //mouse cursol
 
 &mmv {
